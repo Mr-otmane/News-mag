@@ -5,7 +5,7 @@ export const NewsBoard = () => {
     const [articles,setArticles] = useState([]);
 
     useEffect(()=>{
-        let url =`https://newsapi.org/v2/top-headlines?country=us&apiKey=24bf473e4e654f85a4df74c7499235a4`;
+        let url =`https://newsapi.org/v2/top-headlines?country=us&apiKey=${import.meta.env.VITE_API_KEY}`;
     })
 
   return (
