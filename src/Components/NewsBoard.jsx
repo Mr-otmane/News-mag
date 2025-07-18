@@ -2,6 +2,8 @@
 
 export const NewsBoard = () => {
   return (
-    <div>NewsBoard</div>
+    <div>
+        <h2></h2>
+    </div>
   )
 }
