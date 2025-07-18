@@ -3,7 +3,7 @@
 export const NewsBoard = () => {
   return (
     <div>
-        <h2></h2>
+        <h2>Latest <span> </span></h2>
     </div>
   )
 }
