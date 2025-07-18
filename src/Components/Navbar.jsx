@@ -6,7 +6,7 @@ export const Navbar = () => {
     >
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <span className="Badge ">NewsMag</span>
+          <span className="badge bg-light text-dark fs-4">NewsMag</span>
         </a>
         <button
           className="navbar-toggler"
