@@ -11,8 +11,8 @@ const NewsItems = (title, description, src, url) => {
         alt="..."
       />
       <div className="card-body">
-        <h5 className="card-title">{title.slice()}</h5>
-        <p className="card-text">{description}</p>
+        <h5 className="card-title">{title.slice(0,50)}</h5>
+        <p className="card-text">{description?description.slice(0,90):"News "}</p>
         <a href={url} className="btn btn-primary">
           Read More
         </a>
