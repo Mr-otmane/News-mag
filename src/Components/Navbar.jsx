@@ -1,4 +1,4 @@
-const Navbar = () => {
+const Navbar = (setCategory) => {
   return (
     <nav
       className="navbar navbar-expand-lg bg-body-tertiary"
@@ -24,32 +24,32 @@ const Navbar = () => {
            
              
             <li className="nav-item">
-              <div className="nav-link">
+              <div className="nav-link" onClick={(setCategory("technology"))}>
                 Technology
               </div>
             </li>
             <li className="nav-item">
-              <div className="nav-link">
+              <div className="nav-link" onClick={(setCategory("Business"))}>
                 Business
               </div>
             </li>
             <li className="nav-item">
-              <div className="nav-link">
+              <div className="nav-link" onClick={(setCategory("Health"))}>
                 Health
               </div>
             </li>
             <li className="nav-item">
-              <div className="nav-link">
+              <div className="nav-link" onClick={(setCategory("Science"))}>
                 Science
               </div>
             </li>
             <li className="nav-item">
-              <div className="nav-link">
+              <div className="nav-link" onClick={(setCategory(" Sports"))}>
                 Sports
               </div>
             </li>
             <li className="nav-item">
-              <div className="nav-link">
+              <div className="nav-link" onClick={(setCategory("Entertainment"))}>
                 Entertainment
               </div>
             </li>
