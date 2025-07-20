@@ -25,27 +25,32 @@ const Navbar = () => {
              
             <li className="nav-item">
               <div className="nav-link">
-                Features
+                Technology
               </div>
             </li>
             <li className="nav-item">
               <div className="nav-link">
-                Features
+                Business
               </div>
             </li>
             <li className="nav-item">
               <div className="nav-link">
-                Features
+                Health
               </div>
             </li>
             <li className="nav-item">
               <div className="nav-link">
-                Features
+                Science
               </div>
             </li>
             <li className="nav-item">
               <div className="nav-link">
-                Features
+                Sports
+              </div>
+            </li>
+            <li className="nav-item">
+              <div className="nav-link">
+                Entertainment
               </div>
             </li>
       
