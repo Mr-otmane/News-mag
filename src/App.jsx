@@ -7,7 +7,8 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <NewsBoard />
+      <NewsBoard category={category}/>
+
     </div>
   );
 };
